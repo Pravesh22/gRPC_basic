@@ -5,7 +5,7 @@ Basic of how gRPC works
 
 ### Create foods_pb2 and foods_grpc_pb2 file using foods proto file
 ```bash
-$ python -m grpc_tools.protoc -I. /protofile_path --python_out=. /path _to_save_pb2_grpcpb2 --grpc_python_out=. /protofile_path
+$ python -m grpc_tools.protoc -I. /proto_folder_path --python_out=. /path _to_save_pb2_grpcpb2 --grpc_python_out=. /protofile_path
 ```
 
 After running this command foods_pb2.py and foods_grpc_pb2.py file will be generated in given path
